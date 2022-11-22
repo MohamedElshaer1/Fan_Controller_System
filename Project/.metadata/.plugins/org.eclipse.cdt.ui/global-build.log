@@ -1,0 +1,1576 @@
+21:26:48 **** Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../ADC.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"ADC.d" -MT"ADC.o" -c -o "ADC.o" "../ADC.c"
+Finished building: ../ADC.c
+ 
+Building file: ../DC_Motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"DC_Motor.d" -MT"DC_Motor.o" -c -o "DC_Motor.o" "../DC_Motor.c"
+Finished building: ../DC_Motor.c
+ 
+Building file: ../PWM.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"PWM.d" -MT"PWM.o" -c -o "PWM.o" "../PWM.c"
+Finished building: ../PWM.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:160: warning: implicit declaration of function 'itoa'
+Finished building: ../lcd.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:15: error: incompatible types in initialization
+../main.c:19: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:22: error: incompatible type for argument 1 of 'ADC_init'
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:29:02 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../ADC.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"ADC.d" -MT"ADC.o" -c -o "ADC.o" "../ADC.c"
+Finished building: ../ADC.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:15: error: incompatible types in initialization
+../main.c:19: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:22: error: incompatible type for argument 1 of 'ADC_init'
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:29:27 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:15: error: incompatible types in initialization
+../main.c:19: warning: return type of 'main' is not 'int'
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:30:44 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:15: error: incompatible types in initialization
+../main.c:19: warning: return type of 'main' is not 'int'
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:30:52 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9416 bytes (28.7% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:32:06 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:15: error: incompatible types in initialization
+../main.c:19: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:22: warning: passing argument 1 of 'ADC_init' from incompatible pointer type
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:33:27 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:13: error: variable 'project' has initializer but incomplete type
+../main.c:13: warning: excess elements in struct initializer
+../main.c:13: warning: (near initialization for 'project')
+../main.c:13: warning: excess elements in struct initializer
+../main.c:13: warning: (near initialization for 'project')
+../main.c:15: error: 'project' has an incomplete type
+../main.c:19: warning: return type of 'main' is not 'int'
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:33:55 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:15: error: 'project' has an incomplete type
+../main.c:19: warning: return type of 'main' is not 'int'
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:38:50 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:16: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:21: error: incompatible types in initialization
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:39:02 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:15: error: incompatible types in initialization
+../main.c:19: warning: return type of 'main' is not 'int'
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:40:18 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:17: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9416 bytes (28.7% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:40:51 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:14: warning: data definition has no type or storage class
+../main.c:14: warning: type defaults to 'int' in declaration of 'Config_Ptr'
+../main.c:14: error: conflicting types for 'Config_Ptr'
+../main.c:13: error: previous declaration of 'Config_Ptr' was here
+../main.c:14: warning: initialization makes integer from pointer without a cast
+../main.c:17: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:20: warning: passing argument 1 of 'ADC_init' makes pointer from integer without a cast
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:40:59 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:16: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9416 bytes (28.7% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:41:18 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:15: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:18: error: invalid type argument of 'unary *' (have 'ADC_ConfigType')
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:41:35 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:17: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9416 bytes (28.7% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:42:02 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:17: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:20: error: 'Config_Ptr' undeclared (first use in this function)
+../main.c:20: error: (Each undeclared identifier is reported only once
+../main.c:20: error: for each function it appears in.)
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:42:51 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:15: error: conflicting types for 'Config_Ptr'
+../main.c:13: error: previous declaration of 'Config_Ptr' was here
+../main.c:19: warning: return type of 'main' is not 'int'
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:43:17 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9402 bytes (28.7% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:50:58 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9402 bytes (28.7% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:14:02 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:19: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:20: warning: unused variable 'temp'
+Finished building: ../main.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9226 bytes (28.2% Full)
+(.text + .data + .bootloader)
+
+Data:        290 bytes (14.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:16:22 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9402 bytes (28.7% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:16:44 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:19: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:20: warning: unused variable 'temp'
+Finished building: ../main.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9226 bytes (28.2% Full)
+(.text + .data + .bootloader)
+
+Data:        290 bytes (14.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:19:00 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9402 bytes (28.7% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:30:12 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:19: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:31: warning: implicit declaration of function 'printf'
+../main.c:31: warning: incompatible implicit declaration of built-in function 'printf'
+Finished building: ../main.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   10778 bytes (32.9% Full)
+(.text + .data + .bootloader)
+
+Data:        306 bytes (14.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:30:24 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   10778 bytes (32.9% Full)
+(.text + .data + .bootloader)
+
+Data:        306 bytes (14.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:38:13 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9250 bytes (28.2% Full)
+(.text + .data + .bootloader)
+
+Data:        280 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:40:02 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../ADC.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"ADC.d" -MT"ADC.o" -c -o "ADC.o" "../ADC.c"
+Finished building: ../ADC.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9250 bytes (28.2% Full)
+(.text + .data + .bootloader)
+
+Data:        280 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:56:09 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../ADC.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"ADC.d" -MT"ADC.o" -c -o "ADC.o" "../ADC.c"
+Finished building: ../ADC.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9250 bytes (28.2% Full)
+(.text + .data + .bootloader)
+
+Data:        280 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:56:59 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../ADC.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"ADC.d" -MT"ADC.o" -c -o "ADC.o" "../ADC.c"
+Finished building: ../ADC.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9242 bytes (28.2% Full)
+(.text + .data + .bootloader)
+
+Data:        280 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:57:10 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../ADC.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"ADC.d" -MT"ADC.o" -c -o "ADC.o" "../ADC.c"
+Finished building: ../ADC.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9246 bytes (28.2% Full)
+(.text + .data + .bootloader)
+
+Data:        280 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:10:01 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9246 bytes (28.2% Full)
+(.text + .data + .bootloader)
+
+Data:        280 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:43:00 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9402 bytes (28.7% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:20:19 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../ADC.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"ADC.d" -MT"ADC.o" -c -o "ADC.o" "../ADC.c"
+Finished building: ../ADC.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9402 bytes (28.7% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:53:04 **** Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9402 bytes (28.7% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:42:04 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../ADC.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"ADC.d" -MT"ADC.o" -c -o "ADC.o" "../ADC.c"
+Finished building: ../ADC.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9426 bytes (28.8% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:03:52 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../ADC.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"ADC.d" -MT"ADC.o" -c -o "ADC.o" "../ADC.c"
+Finished building: ../ADC.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9424 bytes (28.8% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:49:28 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../ADC.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"ADC.d" -MT"ADC.o" -c -o "ADC.o" "../ADC.c"
+Finished building: ../ADC.c
+ 
+Building file: ../DC_Motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"DC_Motor.d" -MT"DC_Motor.o" -c -o "DC_Motor.o" "../DC_Motor.c"
+Finished building: ../DC_Motor.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9424 bytes (28.8% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:57:22 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../DC_Motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"DC_Motor.d" -MT"DC_Motor.o" -c -o "DC_Motor.o" "../DC_Motor.c"
+Finished building: ../DC_Motor.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o ./main.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9424 bytes (28.8% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:25:05 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../ADC.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"ADC.d" -MT"ADC.o" -c -o "ADC.o" "../ADC.c"
+Finished building: ../ADC.c
+ 
+Building file: ../DC_Motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"DC_Motor.d" -MT"DC_Motor.o" -c -o "DC_Motor.o" "../DC_Motor.c"
+Finished building: ../DC_Motor.c
+ 
+Building file: ../Fan_Controller_System.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"Fan_Controller_System.d" -MT"Fan_Controller_System.o" -c -o "Fan_Controller_System.o" "../Fan_Controller_System.c"
+../Fan_Controller_System.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../Fan_Controller_System.c
+ 
+Building file: ../PWM.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"PWM.d" -MT"PWM.o" -c -o "PWM.o" "../PWM.c"
+Finished building: ../PWM.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:160: warning: implicit declaration of function 'itoa'
+Finished building: ../lcd.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./Fan_Controller_System.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9424 bytes (28.8% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:38:43 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../DC_Motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"DC_Motor.d" -MT"DC_Motor.o" -c -o "DC_Motor.o" "../DC_Motor.c"
+Finished building: ../DC_Motor.c
+ 
+Building file: ../Fan_Controller_System.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"Fan_Controller_System.d" -MT"Fan_Controller_System.o" -c -o "Fan_Controller_System.o" "../Fan_Controller_System.c"
+../Fan_Controller_System.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../Fan_Controller_System.c
+ 
+Building file: ../PWM.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"PWM.d" -MT"PWM.o" -c -o "PWM.o" "../PWM.c"
+Finished building: ../PWM.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./Fan_Controller_System.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9424 bytes (28.8% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:43:59 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../Fan_Controller_System.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"Fan_Controller_System.d" -MT"Fan_Controller_System.o" -c -o "Fan_Controller_System.o" "../Fan_Controller_System.c"
+../Fan_Controller_System.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../Fan_Controller_System.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./Fan_Controller_System.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9424 bytes (28.8% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:58:53 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../ADC.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"ADC.d" -MT"ADC.o" -c -o "ADC.o" "../ADC.c"
+Finished building: ../ADC.c
+ 
+Building file: ../Fan_Controller_System.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"Fan_Controller_System.d" -MT"Fan_Controller_System.o" -c -o "Fan_Controller_System.o" "../Fan_Controller_System.c"
+../Fan_Controller_System.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../Fan_Controller_System.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./Fan_Controller_System.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9424 bytes (28.8% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:09:05 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../ADC.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"ADC.d" -MT"ADC.o" -c -o "ADC.o" "../ADC.c"
+Finished building: ../ADC.c
+ 
+Building file: ../Fan_Controller_System.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"Fan_Controller_System.d" -MT"Fan_Controller_System.o" -c -o "Fan_Controller_System.o" "../Fan_Controller_System.c"
+../Fan_Controller_System.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../Fan_Controller_System.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./Fan_Controller_System.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9424 bytes (28.8% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:10:17 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../Fan_Controller_System.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"Fan_Controller_System.d" -MT"Fan_Controller_System.o" -c -o "Fan_Controller_System.o" "../Fan_Controller_System.c"
+../Fan_Controller_System.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../Fan_Controller_System.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./Fan_Controller_System.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9462 bytes (28.9% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:10:43 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../Fan_Controller_System.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"Fan_Controller_System.d" -MT"Fan_Controller_System.o" -c -o "Fan_Controller_System.o" "../Fan_Controller_System.c"
+../Fan_Controller_System.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../Fan_Controller_System.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./Fan_Controller_System.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9424 bytes (28.8% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:10:54 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../ADC.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"ADC.d" -MT"ADC.o" -c -o "ADC.o" "../ADC.c"
+Finished building: ../ADC.c
+ 
+Building file: ../Fan_Controller_System.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"Fan_Controller_System.d" -MT"Fan_Controller_System.o" -c -o "Fan_Controller_System.o" "../Fan_Controller_System.c"
+../Fan_Controller_System.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../Fan_Controller_System.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./Fan_Controller_System.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9424 bytes (28.8% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:14:22 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../Fan_Controller_System.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"Fan_Controller_System.d" -MT"Fan_Controller_System.o" -c -o "Fan_Controller_System.o" "../Fan_Controller_System.c"
+../Fan_Controller_System.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../Fan_Controller_System.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./Fan_Controller_System.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9424 bytes (28.8% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:15:02 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Building file: ../Fan_Controller_System.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"Fan_Controller_System.d" -MT"Fan_Controller_System.o" -c -o "Fan_Controller_System.o" "../Fan_Controller_System.c"
+../Fan_Controller_System.c:19: warning: return type of 'main' is not 'int'
+Finished building: ../Fan_Controller_System.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building target: Fan_Controller_System.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Fan_Controller_System.map -mmcu=atmega32 -o "Fan_Controller_System.elf"  ./ADC.o ./DC_Motor.o ./Fan_Controller_System.o ./PWM.o ./gpio.o ./lcd.o ./lm35_sensor.o   
+Finished building target: Fan_Controller_System.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Fan_Controller_System.elf  >"Fan_Controller_System.lss"
+Finished building: Fan_Controller_System.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Fan_Controller_System.elf  "Fan_Controller_System.hex"
+Finished building: Fan_Controller_System.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9424 bytes (28.8% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+17:15:19 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9424 bytes (28.8% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+15:23:28 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9424 bytes (28.8% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+16:26:08 **** Incremental Build of configuration Debug for project Fan_Controller_System ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Fan_Controller_System.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9424 bytes (28.8% Full)
+(.text + .data + .bootloader)
+
+Data:        296 bytes (14.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
